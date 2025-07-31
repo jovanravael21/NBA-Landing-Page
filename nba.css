@@ -1,0 +1,489 @@
+*{
+    margin: 0 ;
+    font-family: 'TikTok Sans';
+}
+
+#nba-header{
+    display: flex;
+    align-items: center;
+    padding: 0.55rem;
+    justify-content: flex-start;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1000;
+}
+
+#nba-title{
+    font-size: 2.5rem;
+}
+
+#title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0;
+}
+
+#nba-links{
+    display: flex;
+    margin-left: auto;
+    gap: 1.5rem;
+    margin-right: 3rem;
+}
+
+#nba-links a{
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.7rem;
+    font-size: 1rem;
+}
+
+#mobile-menu-icon,
+#mobile-nav-links {
+  display: none;
+}
+
+.link{
+    color: black;
+}
+
+.link:hover{
+    color: #17408B;
+}
+
+
+#nba-links a:hover{
+    text-decoration: underline;
+}
+
+#landing-button{
+    background-color: #17408B;
+    border-radius: 15px;
+    color: white;
+}
+
+#landing-button:hover{
+    background-color: #C9082A;
+}
+
+
+#nba-image{
+    background-image: url('nba_landing.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 48rem;
+}
+
+#nba-motto{
+    color: white;
+    margin-left: 1rem;
+    padding-top: 9rem;
+    font-size: 5rem;
+    align-items: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+#where{
+    animation: slideRight1 1s;
+}
+
+#amazing{
+    color: #17408B;
+    animation: slideRight2 2s;
+}
+
+#happens{
+    animation: slideRight3 3s;
+}
+
+#nba-about{
+    background-color: #17408B;
+    color: white;
+    padding: 4rem;
+    display: flow-root;
+}
+
+#nba-about h2{
+    text-align: center;
+    font-size: 3rem;
+}
+
+#abouts{
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+#franchise img{
+    float: left;
+    margin-right: 10px;
+    animation: fadeSlideUp 2s ease-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+#nba-franchise-description{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#superstar img{
+    float: right;
+    margin-left: 10px;
+    animation: fadeSlideUp 2s ease-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+#nba-superstar-description{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#influence img{
+    float: left;
+    animation: fadeSlideUp 2s ease-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+#nba-influence-description{
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#nba-highlights{
+    padding: 4rem;
+    background-color: #C9082A;
+}
+
+#nba-highlights h2{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+#highlights{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+
+#nba-news{
+    padding: 4rem;
+}
+
+#news-title{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#nba-news img{
+    float: left;
+    margin-right: 10px;
+}
+
+#nba-news a{
+    text-decoration: none;
+    color: black;
+}
+
+#nba-news a:hover{
+    text-decoration: underline;
+}
+
+#section-1{
+    padding-bottom: 12rem;
+    animation: fadeSlideUp 2s ease-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+#section-2{
+    padding-bottom: 12rem;
+    animation: fadeSlideUp 2s ease-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+#section-3{
+    padding-bottom: 12rem;
+    animation: fadeSlideUp 2s ease-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+#section-4{
+    padding-bottom: 12rem;
+    animation: fadeSlideUp 2s ease-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+#section-5{
+    padding-bottom: 12rem;
+    animation: fadeSlideUp 2s ease-out;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+
+#nba-footer{
+    padding: 4rem;
+    background-color: #17408B;
+    display: flex;
+    justify-content: space-between;
+}
+
+#nba-media{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-left: 0;
+    color:white;
+}
+
+#social-media{
+    margin-right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 3rem;
+}
+
+#instagram {
+    color: #f83979; 
+}
+
+#youtube {
+    color: #FF0000;
+}
+
+#twitter {
+    color: white; 
+}
+
+#tiktok {
+    color: #6ebefb; 
+}
+
+@media(max-width: 768px) {
+    #nba-links{
+        display: none;
+    }
+
+    #mobile-menu-icon{
+        display: flex;
+        margin-left: auto;
+        margin-right: 30px;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+
+    /* Hidden by default */
+    #mobile-nav-links {
+        display: none;
+        flex-direction: column;
+        align-items: flex-end;
+        background-color: white;
+        width: 100%;
+        padding: 1rem 0;
+        position: absolute;
+        top: 60px; /* adjust based on your header height */
+        left: 0;
+        z-index: 1000;
+    }
+
+    #mobile-nav-links a{
+        margin-right: 2.5rem;
+        padding-bottom: 0.3rem;
+        font-size: 1.5rem;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+    #mobile-nav-links .link{
+        text-decoration: none;
+        color: black;
+    }
+
+    #mobile-nav-links .link:hover{
+        color: #17408B;
+        text-decoration: underline;
+    }
+
+    #landing-button{
+        padding: 5px;
+    }
+
+    #landing-button:hover{
+        text-decoration: underline;
+    }
+
+    /* When active (shown) */
+    #mobile-nav-links.clicked {
+        display: flex;
+    }
+
+    #nba-image{
+        background-image: url('../HTML & CSS/img/nba_landing.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 35rem;
+    }
+
+    #nba-motto{
+        font-size: 2.5rem;
+    }
+
+    #abouts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #nba-about{
+        padding: 1.5rem;
+    }
+    
+    #about-title{
+        padding-top: 2rem;
+    }
+
+    #franchise img{
+        float: none;
+        width: 100%;
+    }
+
+    #nba-franchise-description{
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        width: 100%;
+    }
+
+    #superstar img{
+        float: none;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #nba-superstar-description{
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        width: 100%;
+    }
+
+    #influence img{
+        float: none;
+        width: 100%;
+    }
+
+    #nba-influence-description{
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        width: 100%;
+    }
+
+    #nba-highlights{
+        padding: 1.5rem;
+    }
+
+    #highlights iframe{
+        width: 90%;
+        height: 300px;
+    }
+
+    #highlights{
+        padding-bottom: 50px;
+    }
+
+    #news-title{
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+    }
+
+    #nba-news{
+        padding: 1rem;
+    }
+
+    #nba-news img{
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        height: auto;
+    }
+
+    #section-1,#section-2,#section-3,#section-4,#section-5{
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+
+    #nba-footer{
+        padding: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nba-media{
+        display: block;
+        padding: 1rem;
+    }
+}
+
+@keyframes slideRight1 {
+    0%{
+        transform: translateX(-100%);
+    }100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideRight2 {
+    0%{
+        transform: translateX(-250%);
+    }100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideRight3 {
+    0%{
+        transform: translateX(-400%);
+    }100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slideLeft {
+    0%{
+        transform: translateX(100%);
+    }100%{
+        transform: translateX(0%);
+    }
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
