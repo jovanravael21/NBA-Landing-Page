@@ -301,7 +301,7 @@
         width: 100%;
         padding: 1rem 0;
         position: absolute;
-        top: 60px; /* adjust based on your header height */
+        top: 60px; /* adjust based on the header height */
         left: 0;
         z-index: 1000;
     }
