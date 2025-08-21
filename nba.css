@@ -338,7 +338,7 @@
     }
 
     #nba-image{
-        background-image: url('../HTML & CSS/img/nba_landing.jpg');
+        background-image: url('nba_landing.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
